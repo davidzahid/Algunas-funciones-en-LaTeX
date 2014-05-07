@@ -1,0 +1,40 @@
+\usepackage{pgfplots}
+
+\begin{figure} %Inicia la figura
+
+ 	\centering
+ 		\begin{tikzpicture}
+			\begin{axis}[nodes near coords,ylabel=Instancias clasificadas correctamente (\%),xlabel=Métodos de clasificación,symbolic x coords={NB,AD},xtick=data] %Agrega los etiquetas cuales desee dentro de las llaves de x coords= {} <----
+
+          \addplot[ybar,fill=blue] coordinates {
+                (NB, 85.5324)
+                (AD, 92.3611)
+
+                %los etiquetas declaradas en x coords deberán serán las que se podrán utilizar para agregar
+                % la gráfica.
+
+            };
+            
+    		\end{axis}
+		\end{tikzpicture}
+     \caption{Gráfico de resultados del conjunto de datos Car} %Titulo de la gráfica
+       \label{graph:graficoccar} %agrega una etiqueta que podrá ser referenciada
+
+\end{figure} Finaliza la figura
+
+% Autor: David Zahid Jiménez Grez   %
+% contacto@zahid.mx					%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
