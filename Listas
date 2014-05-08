@@ -1,0 +1,12 @@
+% ¿Cómo realizar un item?%
+% para realizar una lista es necesario comenzar con \begin{itemize}
+\begin{itemize}
+% Posteriormente escribimos nuestra lista, siempre comenzando con un  \item
+\item Ejemplo 1
+\item Ejemplo 2
+\item Ejemplo 3
+\item Ejemplo 4
+\item Ejemplo 5
+\item Ejemplo 6
+\end{itemize}
+% Es necesario finalizar, para esto deberemos escribir \end{itemize}
